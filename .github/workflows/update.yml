@@ -17,11 +17,11 @@ on:
       top_n:
         description: 'verified.* 输出节点数量(默认 300)'
         required: false
-        default: '300'
+        default: '50'
       test_limit:
         description: '送入真实测速的最大节点数量(默认 3000)'
         required: false
-        default: '3000'
+        default: '5000'
       min_retain_ratio:
         description: '节点保留缩水比例，0=关闭缩水并强制写入本轮测速结果(默认 0)'
         required: false
