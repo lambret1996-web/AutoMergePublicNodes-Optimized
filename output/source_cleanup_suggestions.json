@@ -1,36 +1,47 @@
 {
-  "generated_at": "2026-09-07 12:36:38",
+  "generated_at": "2026-09-07 13:01:12",
   "min_tested": 5,
   "disable_dead_threshold": 2,
   "summary": {
     "disable": 0,
     "downweight": 0,
-    "prefer": 2,
-    "observe": 105
+    "prefer": 3,
+    "observe": 104
   },
   "suggestions": {
     "disable": [],
     "downweight": [],
     "prefer": [
       {
-        "name": "zhangkai",
-        "url": "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
-        "score": 0.967,
+        "name": "Au1rxx-base64",
+        "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt",
+        "score": 0.983,
         "recommendation": "prefer",
-        "tested": 24,
-        "pass_rate": 1.0,
-        "parsed_nodes": 144,
+        "tested": 324,
+        "pass_rate": 0.914,
+        "parsed_nodes": 1788,
         "consecutive_dead": 0,
         "reason": "源评分较高"
       },
       {
-        "name": "Au1rxx-base64",
-        "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt",
-        "score": 0.939,
+        "name": "Surfboard-tg-mixed",
+        "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
+        "score": 0.868,
         "recommendation": "prefer",
-        "tested": 179,
-        "pass_rate": 0.872,
-        "parsed_nodes": 1788,
+        "tested": 102,
+        "pass_rate": 0.794,
+        "parsed_nodes": 7247,
+        "consecutive_dead": 0,
+        "reason": "源评分较高"
+      },
+      {
+        "name": "zhangkai",
+        "url": "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
+        "score": 0.852,
+        "recommendation": "prefer",
+        "tested": 24,
+        "pass_rate": 0.875,
+        "parsed_nodes": 144,
         "consecutive_dead": 0,
         "reason": "源评分较高"
       }
@@ -83,10 +94,10 @@
       {
         "name": "Barabama-yudou",
         "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt",
-        "score": 0.182,
+        "score": 0.262,
         "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
+        "tested": 1,
+        "pass_rate": 1.0,
         "parsed_nodes": 166,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
@@ -94,10 +105,10 @@
       {
         "name": "DeltaKronecker-all",
         "url": "https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt",
-        "score": 0.255,
+        "score": 0.207,
         "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
+        "tested": 1,
+        "pass_rate": 0.0,
         "parsed_nodes": 6417,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
@@ -165,17 +176,6 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 8437,
-        "consecutive_dead": 0,
-        "reason": "证据不足或评分中性"
-      },
-      {
-        "name": "Surfboard-tg-mixed",
-        "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
-        "score": 0.335,
-        "recommendation": "observe",
-        "tested": 1,
-        "pass_rate": 1.0,
-        "parsed_nodes": 7247,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -325,10 +325,10 @@
       {
         "name": "mheidari-all",
         "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/all",
-        "score": 0.349,
+        "score": 0.539,
         "recommendation": "observe",
-        "tested": 3,
-        "pass_rate": 0.667,
+        "tested": 192,
+        "pass_rate": 0.458,
         "parsed_nodes": 21631,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
@@ -512,11 +512,11 @@
       {
         "name": "tg-ConfigWireguard",
         "url": "https://t.me/s/ConfigWireguard",
-        "score": 0.176,
+        "score": 0.175,
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 26,
+        "parsed_nodes": 12,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -908,10 +908,10 @@
       {
         "name": "tg-oneclickvpnkeys",
         "url": "https://t.me/s/oneclickvpnkeys",
-        "score": 0.275,
+        "score": 0.317,
         "recommendation": "observe",
-        "tested": 3,
-        "pass_rate": 0.667,
+        "tested": 2,
+        "pass_rate": 1.0,
         "parsed_nodes": 151,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
