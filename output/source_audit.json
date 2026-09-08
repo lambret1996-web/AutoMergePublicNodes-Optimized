@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07 18:20:15",
+  "generated_at": "2026-09-08 00:27:52",
   "sources_total": 107,
   "healthy": 96,
   "broken": 11,
@@ -11,9 +11,9 @@
       "ok": false,
       "nodes": 0,
       "bytes": 0,
-      "duration": 4.39,
+      "duration": 5.87,
       "error": "HTTP 404",
-      "consecutive_dead": 207
+      "consecutive_dead": 208
     },
     {
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
@@ -22,9 +22,9 @@
       "ok": false,
       "nodes": 0,
       "bytes": 0,
-      "duration": 3.91,
+      "duration": 6.17,
       "error": "HTTP 404",
-      "consecutive_dead": 32
+      "consecutive_dead": 33
     },
     {
       "url": "https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/all.txt",
@@ -33,9 +33,9 @@
       "ok": false,
       "nodes": 0,
       "bytes": 0,
-      "duration": 4.85,
+      "duration": 3.16,
       "error": "HTTP 404",
-      "consecutive_dead": 37
+      "consecutive_dead": 38
     },
     {
       "url": "https://raw.githubusercontent.com/FreeFolksOn/abc-configs-free-vpn-proxy-list/main/README.md",
@@ -44,9 +44,9 @@
       "ok": false,
       "nodes": 0,
       "bytes": 0,
-      "duration": 4.49,
+      "duration": 4.13,
       "error": "HTTP 404",
-      "consecutive_dead": 68
+      "consecutive_dead": 69
     },
     {
       "url": "https://t.me/s/ViProxys",
@@ -54,10 +54,10 @@
       "dynamic": false,
       "ok": true,
       "nodes": 0,
-      "bytes": 20529,
-      "duration": 2.36,
+      "bytes": 20527,
+      "duration": 2.17,
       "error": "",
-      "consecutive_dead": 52
+      "consecutive_dead": 53
     },
     {
       "url": "https://t.me/s/Letiranbreath",
@@ -65,10 +65,10 @@
       "dynamic": false,
       "ok": true,
       "nodes": 0,
-      "bytes": 9674,
-      "duration": 2.49,
+      "bytes": 9672,
+      "duration": 2.48,
       "error": "",
-      "consecutive_dead": 212
+      "consecutive_dead": 213
     },
     {
       "url": "https://t.me/s/V2rayngVpn",
@@ -76,21 +76,10 @@
       "dynamic": false,
       "ok": true,
       "nodes": 0,
-      "bytes": 154884,
-      "duration": 1.53,
+      "bytes": 161310,
+      "duration": 1.2,
       "error": "",
-      "consecutive_dead": 321
-    },
-    {
-      "url": "https://t.me/s/shadowproxy66",
-      "name": "tg-shadowproxy66",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 0,
-      "bytes": 108278,
-      "duration": 1.33,
-      "error": "",
-      "consecutive_dead": 14
+      "consecutive_dead": 322
     },
     {
       "url": "https://t.me/s/abc_configs",
@@ -99,9 +88,9 @@
       "ok": true,
       "nodes": 0,
       "bytes": 9645,
-      "duration": 0.47,
+      "duration": 0.22,
       "error": "",
-      "consecutive_dead": 67
+      "consecutive_dead": 68
     },
     {
       "url": "https://t.me/s/Parsashonam",
@@ -109,10 +98,10 @@
       "dynamic": false,
       "ok": true,
       "nodes": 0,
-      "bytes": 124044,
-      "duration": 0.43,
+      "bytes": 124046,
+      "duration": 0.25,
       "error": "",
-      "consecutive_dead": 59
+      "consecutive_dead": 60
     },
     {
       "url": "https://t.me/s/ernoxin_shop",
@@ -121,9 +110,9 @@
       "ok": true,
       "nodes": 0,
       "bytes": 9659,
-      "duration": 0.47,
+      "duration": 0.24,
       "error": "",
-      "consecutive_dead": 90
+      "consecutive_dead": 91
     }
   ],
   "disabled_count": 0,
@@ -133,9 +122,9 @@
       "name": "mheidari-all",
       "dynamic": false,
       "ok": true,
-      "nodes": 21150,
-      "bytes": 6483728,
-      "duration": 5.35,
+      "nodes": 16494,
+      "bytes": 5111292,
+      "duration": 5.85,
       "error": "",
       "consecutive_dead": 0
     },
@@ -144,9 +133,9 @@
       "name": "SoliSpirit-all",
       "dynamic": false,
       "ok": true,
-      "nodes": 8564,
-      "bytes": 2611660,
-      "duration": 3.74,
+      "nodes": 8733,
+      "bytes": 2654429,
+      "duration": 3.56,
       "error": "",
       "consecutive_dead": 0
     },
@@ -155,9 +144,9 @@
       "name": "Epodonios-all",
       "dynamic": false,
       "ok": true,
-      "nodes": 7870,
-      "bytes": 1804067,
-      "duration": 3.43,
+      "nodes": 7917,
+      "bytes": 1821306,
+      "duration": 4.17,
       "error": "",
       "consecutive_dead": 0
     },
@@ -166,9 +155,20 @@
       "name": "Surfboard-tg-mixed",
       "dynamic": false,
       "ok": true,
-      "nodes": 7406,
-      "bytes": 2438477,
-      "duration": 4.39,
+      "nodes": 7423,
+      "bytes": 2452973,
+      "duration": 4.44,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vless.txt",
+      "name": "barry-far-vless",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 6444,
+      "bytes": 1644913,
+      "duration": 3.16,
       "error": "",
       "consecutive_dead": 0
     },
@@ -179,18 +179,7 @@
       "ok": true,
       "nodes": 6417,
       "bytes": 2107913,
-      "duration": 5.72,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vless.txt",
-      "name": "barry-far-vless",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 6314,
-      "bytes": 1618230,
-      "duration": 2.63,
+      "duration": 5.73,
       "error": "",
       "consecutive_dead": 0
     },
@@ -199,20 +188,9 @@
       "name": "Surfboard-tg-vless",
       "dynamic": false,
       "ok": true,
-      "nodes": 6099,
-      "bytes": 2089173,
-      "duration": 4.14,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt",
-      "name": "xiaoji235-airport-v2ray-all",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 5750,
-      "bytes": 3303470,
-      "duration": 5.37,
+      "nodes": 6226,
+      "bytes": 2123597,
+      "duration": 3.93,
       "error": "",
       "consecutive_dead": 0
     },
@@ -223,7 +201,7 @@
       "ok": true,
       "nodes": 4650,
       "bytes": 1287656,
-      "duration": 2.89,
+      "duration": 2.87,
       "error": "",
       "consecutive_dead": 0
     },
@@ -234,7 +212,7 @@
       "ok": true,
       "nodes": 4218,
       "bytes": 1027985,
-      "duration": 1.09,
+      "duration": 0.51,
       "error": "",
       "consecutive_dead": 0
     },
@@ -244,8 +222,30 @@
       "dynamic": false,
       "ok": true,
       "nodes": 3997,
-      "bytes": 1082347,
-      "duration": 2.2,
+      "bytes": 1047807,
+      "duration": 3.25,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt",
+      "name": "Au1rxx-base64",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 1805,
+      "bytes": 484304,
+      "duration": 1.85,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
+      "name": "Au1rxx-clash",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 1805,
+      "bytes": 652621,
+      "duration": 3.63,
       "error": "",
       "consecutive_dead": 0
     },
@@ -256,29 +256,7 @@
       "ok": true,
       "nodes": 1791,
       "bytes": 641364,
-      "duration": 3.13,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt",
-      "name": "Au1rxx-base64",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 1785,
-      "bytes": 479988,
-      "duration": 0.17,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
-      "name": "Au1rxx-clash",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 1785,
-      "bytes": 634947,
-      "duration": 2.9,
+      "duration": 2.07,
       "error": "",
       "consecutive_dead": 0
     },
@@ -289,7 +267,7 @@
       "ok": true,
       "nodes": 1164,
       "bytes": 133758,
-      "duration": 2.85,
+      "duration": 1.67,
       "error": "",
       "consecutive_dead": 0
     },
@@ -300,7 +278,7 @@
       "ok": true,
       "nodes": 839,
       "bytes": 249969,
-      "duration": 2.0,
+      "duration": 1.87,
       "error": "",
       "consecutive_dead": 0
     },
@@ -310,8 +288,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 496,
-      "bytes": 92142,
-      "duration": 1.96,
+      "bytes": 101994,
+      "duration": 1.9,
       "error": "",
       "consecutive_dead": 0
     },
@@ -320,9 +298,31 @@
       "name": "barry-far-Sub1",
       "dynamic": false,
       "ok": true,
-      "nodes": 487,
-      "bytes": 71289,
-      "duration": 2.0,
+      "nodes": 476,
+      "bytes": 70199,
+      "duration": 1.88,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
+      "name": "ermaozi-get_subscribe",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 465,
+      "bytes": 188025,
+      "duration": 1.55,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
+      "name": "ermaozi",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 450,
+      "bytes": 59457,
+      "duration": 0.53,
       "error": "",
       "consecutive_dead": 0
     },
@@ -332,8 +332,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 217,
-      "bytes": 138806,
-      "duration": 3.87,
+      "bytes": 138808,
+      "duration": 4.13,
       "error": "",
       "consecutive_dead": 0
     },
@@ -343,8 +343,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 201,
-      "bytes": 88724,
-      "duration": 0.31,
+      "bytes": 89060,
+      "duration": 1.55,
       "error": "",
       "consecutive_dead": 0
     },
@@ -354,8 +354,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 200,
-      "bytes": 250668,
-      "duration": 0.68,
+      "bytes": 250789,
+      "duration": 0.42,
       "error": "",
       "consecutive_dead": 0
     },
@@ -365,8 +365,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 200,
-      "bytes": 75116,
-      "duration": 1.95,
+      "bytes": 77156,
+      "duration": 1.88,
       "error": "",
       "consecutive_dead": 0
     },
@@ -376,19 +376,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 200,
-      "bytes": 178495,
-      "duration": 0.43,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://t.me/s/ConfigV2rayNG",
-      "name": "tg-ConfigV2rayNG",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 200,
-      "bytes": 175747,
-      "duration": 0.45,
+      "bytes": 177353,
+      "duration": 0.38,
       "error": "",
       "consecutive_dead": 0
     },
@@ -398,8 +387,19 @@
       "dynamic": false,
       "ok": true,
       "nodes": 196,
-      "bytes": 185180,
-      "duration": 3.89,
+      "bytes": 187938,
+      "duration": 4.48,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://t.me/s/ConfigV2rayNG",
+      "name": "tg-ConfigV2rayNG",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 195,
+      "bytes": 168357,
+      "duration": 0.71,
       "error": "",
       "consecutive_dead": 0
     },
@@ -409,8 +409,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 191,
-      "bytes": 181943,
-      "duration": 2.49,
+      "bytes": 182222,
+      "duration": 4.25,
       "error": "",
       "consecutive_dead": 0
     },
@@ -419,9 +419,9 @@
       "name": "tg-LonUp_M",
       "dynamic": false,
       "ok": true,
-      "nodes": 177,
-      "bytes": 160912,
-      "duration": 4.46,
+      "nodes": 178,
+      "bytes": 158906,
+      "duration": 4.49,
       "error": "",
       "consecutive_dead": 0
     },
@@ -432,7 +432,7 @@
       "ok": true,
       "nodes": 166,
       "bytes": 70485,
-      "duration": 0.31,
+      "duration": 3.63,
       "error": "",
       "consecutive_dead": 0
     },
@@ -443,7 +443,7 @@
       "ok": true,
       "nodes": 163,
       "bytes": 95558,
-      "duration": 1.01,
+      "duration": 1.79,
       "error": "",
       "consecutive_dead": 0
     },
@@ -452,9 +452,9 @@
       "name": "tg-prrofile_purple",
       "dynamic": false,
       "ok": true,
-      "nodes": 152,
-      "bytes": 203216,
-      "duration": 1.84,
+      "nodes": 160,
+      "bytes": 201646,
+      "duration": 4.34,
       "error": "",
       "consecutive_dead": 0
     },
@@ -464,8 +464,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 150,
-      "bytes": 36094,
-      "duration": 1.41,
+      "bytes": 35482,
+      "duration": 1.52,
       "error": "",
       "consecutive_dead": 0
     },
@@ -476,7 +476,7 @@
       "ok": true,
       "nodes": 144,
       "bytes": 46657,
-      "duration": 0.3,
+      "duration": 1.97,
       "error": "",
       "consecutive_dead": 0
     },
@@ -485,9 +485,9 @@
       "name": "tg-Outline_Vpn",
       "dynamic": false,
       "ok": true,
-      "nodes": 131,
-      "bytes": 200844,
-      "duration": 3.85,
+      "nodes": 140,
+      "bytes": 206234,
+      "duration": 3.9,
       "error": "",
       "consecutive_dead": 0
     },
@@ -497,8 +497,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 123,
-      "bytes": 156076,
-      "duration": 2.47,
+      "bytes": 156078,
+      "duration": 2.21,
       "error": "",
       "consecutive_dead": 0
     },
@@ -508,8 +508,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 113,
-      "bytes": 98685,
-      "duration": 2.46,
+      "bytes": 98684,
+      "duration": 4.2,
       "error": "",
       "consecutive_dead": 0
     },
@@ -518,9 +518,9 @@
       "name": "tg-Hope_Net",
       "dynamic": false,
       "ok": true,
-      "nodes": 72,
-      "bytes": 207020,
-      "duration": 1.85,
+      "nodes": 75,
+      "bytes": 206622,
+      "duration": 3.79,
       "error": "",
       "consecutive_dead": 0
     },
@@ -530,8 +530,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 61,
-      "bytes": 118645,
-      "duration": 3.94,
+      "bytes": 118642,
+      "duration": 4.1,
       "error": "",
       "consecutive_dead": 0
     },
@@ -542,7 +542,7 @@
       "ok": true,
       "nodes": 61,
       "bytes": 116811,
-      "duration": 2.42,
+      "duration": 2.56,
       "error": "",
       "consecutive_dead": 0
     },
@@ -551,20 +551,9 @@
       "name": "tg-ISVvpn",
       "dynamic": false,
       "ok": true,
-      "nodes": 57,
-      "bytes": 133831,
-      "duration": 0.38,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml",
-      "name": "chromego_merge",
-      "dynamic": false,
-      "ok": true,
       "nodes": 56,
-      "bytes": 12719,
-      "duration": 2.93,
+      "bytes": 133709,
+      "duration": 0.29,
       "error": "",
       "consecutive_dead": 0
     },
@@ -574,8 +563,19 @@
       "dynamic": false,
       "ok": true,
       "nodes": 53,
-      "bytes": 113211,
-      "duration": 0.69,
+      "bytes": 113086,
+      "duration": 0.27,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml",
+      "name": "chromego_merge",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 51,
+      "bytes": 11803,
+      "duration": 1.62,
       "error": "",
       "consecutive_dead": 0
     },
@@ -585,8 +585,19 @@
       "dynamic": false,
       "ok": true,
       "nodes": 46,
-      "bytes": 110799,
-      "duration": 0.33,
+      "bytes": 110800,
+      "duration": 0.47,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://t.me/s/proxy_kafee",
+      "name": "tg-proxy_kafee",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 46,
+      "bytes": 132892,
+      "duration": 0.3,
       "error": "",
       "consecutive_dead": 0
     },
@@ -596,8 +607,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 38,
-      "bytes": 130473,
-      "duration": 0.84,
+      "bytes": 130470,
+      "duration": 0.55,
       "error": "",
       "consecutive_dead": 0
     },
@@ -607,19 +618,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 37,
-      "bytes": 179348,
-      "duration": 1.84,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://t.me/s/proxy_kafee",
-      "name": "tg-proxy_kafee",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 31,
-      "bytes": 118750,
-      "duration": 0.91,
+      "bytes": 179346,
+      "duration": 2.06,
       "error": "",
       "consecutive_dead": 0
     },
@@ -629,8 +629,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 30,
-      "bytes": 136494,
-      "duration": 2.16,
+      "bytes": 136490,
+      "duration": 1.75,
       "error": "",
       "consecutive_dead": 0
     },
@@ -641,7 +641,7 @@
       "ok": true,
       "nodes": 28,
       "bytes": 8701,
-      "duration": 0.33,
+      "duration": 1.87,
       "error": "",
       "consecutive_dead": 0
     },
@@ -652,7 +652,7 @@
       "ok": true,
       "nodes": 26,
       "bytes": 19697,
-      "duration": 1.01,
+      "duration": 1.62,
       "error": "",
       "consecutive_dead": 0
     },
@@ -661,31 +661,9 @@
       "name": "peasoft-NoMoreWalls",
       "dynamic": false,
       "ok": true,
-      "nodes": 26,
-      "bytes": 415461,
-      "duration": 1.51,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
-      "name": "ermaozi",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 24,
-      "bytes": 4743,
-      "duration": 0.31,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-      "name": "ermaozi-get_subscribe",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 24,
-      "bytes": 18099,
-      "duration": 0.21,
+      "nodes": 25,
+      "bytes": 415282,
+      "duration": 1.12,
       "error": "",
       "consecutive_dead": 0
     },
@@ -696,7 +674,7 @@
       "ok": true,
       "nodes": 23,
       "bytes": 4551,
-      "duration": 0.1,
+      "duration": 0.05,
       "error": "",
       "consecutive_dead": 0
     },
@@ -707,7 +685,7 @@
       "ok": true,
       "nodes": 23,
       "bytes": 14196,
-      "duration": 0.1,
+      "duration": 1.58,
       "error": "",
       "consecutive_dead": 0
     },
@@ -717,8 +695,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 21,
-      "bytes": 100906,
-      "duration": 2.4,
+      "bytes": 100904,
+      "duration": 2.48,
       "error": "",
       "consecutive_dead": 0
     },
@@ -728,8 +706,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 20,
-      "bytes": 7140,
-      "duration": 0.1,
+      "bytes": 6016,
+      "duration": 0.06,
       "error": "",
       "consecutive_dead": 0
     },
@@ -739,8 +717,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 20,
-      "bytes": 218749,
-      "duration": 2.06,
+      "bytes": 218752,
+      "duration": 1.56,
       "error": "",
       "consecutive_dead": 0
     },
@@ -750,8 +728,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 20,
-      "bytes": 134258,
-      "duration": 0.7,
+      "bytes": 133716,
+      "duration": 0.28,
       "error": "",
       "consecutive_dead": 0
     },
@@ -761,8 +739,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 20,
-      "bytes": 124895,
-      "duration": 1.08,
+      "bytes": 124997,
+      "duration": 0.27,
       "error": "",
       "consecutive_dead": 0
     },
@@ -772,8 +750,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 20,
-      "bytes": 129758,
-      "duration": 0.37,
+      "bytes": 129757,
+      "duration": 0.66,
       "error": "",
       "consecutive_dead": 0
     },
@@ -783,8 +761,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 19,
-      "bytes": 100369,
-      "duration": 1.57,
+      "bytes": 105468,
+      "duration": 1.2,
       "error": "",
       "consecutive_dead": 0
     },
@@ -795,7 +773,7 @@
       "ok": true,
       "nodes": 18,
       "bytes": 100569,
-      "duration": 1.7,
+      "duration": 1.21,
       "error": "",
       "consecutive_dead": 0
     },
@@ -805,8 +783,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 18,
-      "bytes": 91163,
-      "duration": 0.32,
+      "bytes": 91164,
+      "duration": 0.26,
       "error": "",
       "consecutive_dead": 0
     },
@@ -816,8 +794,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 18,
-      "bytes": 118236,
-      "duration": 0.37,
+      "bytes": 118238,
+      "duration": 0.62,
       "error": "",
       "consecutive_dead": 0
     },
@@ -828,7 +806,7 @@
       "ok": true,
       "nodes": 17,
       "bytes": 77548,
-      "duration": 1.58,
+      "duration": 1.11,
       "error": "",
       "consecutive_dead": 0
     },
@@ -839,7 +817,7 @@
       "ok": true,
       "nodes": 17,
       "bytes": 136545,
-      "duration": 0.36,
+      "duration": 0.29,
       "error": "",
       "consecutive_dead": 0
     },
@@ -849,8 +827,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 17,
-      "bytes": 155154,
-      "duration": 0.43,
+      "bytes": 155152,
+      "duration": 0.28,
       "error": "",
       "consecutive_dead": 0
     },
@@ -860,41 +838,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 16,
-      "bytes": 89596,
-      "duration": 0.35,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://t.me/s/VlessConfig",
-      "name": "tg-VlessConfig",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 16,
-      "bytes": 115344,
-      "duration": 0.34,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://t.me/s/DirectVPN",
-      "name": "tg-DirectVPN",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 16,
-      "bytes": 112707,
-      "duration": 0.35,
-      "error": "",
-      "consecutive_dead": 0
-    },
-    {
-      "url": "https://t.me/s/PrivateVPNs",
-      "name": "tg-PrivateVPNs",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 16,
-      "bytes": 117003,
-      "duration": 0.34,
+      "bytes": 89595,
+      "duration": 0.28,
       "error": "",
       "consecutive_dead": 0
     },
@@ -905,7 +850,7 @@
       "ok": true,
       "nodes": 14,
       "bytes": 6708,
-      "duration": 0.31,
+      "duration": 0.71,
       "error": "",
       "consecutive_dead": 0
     },
@@ -916,7 +861,51 @@
       "ok": true,
       "nodes": 14,
       "bytes": 188731,
-      "duration": 0.85,
+      "duration": 0.71,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://t.me/s/shadowproxy66",
+      "name": "tg-shadowproxy66",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 14,
+      "bytes": 111371,
+      "duration": 0.77,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://t.me/s/VlessConfig",
+      "name": "tg-VlessConfig",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 14,
+      "bytes": 125550,
+      "duration": 0.26,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://t.me/s/DirectVPN",
+      "name": "tg-DirectVPN",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 14,
+      "bytes": 123163,
+      "duration": 0.21,
+      "error": "",
+      "consecutive_dead": 0
+    },
+    {
+      "url": "https://t.me/s/PrivateVPNs",
+      "name": "tg-PrivateVPNs",
+      "dynamic": false,
+      "ok": true,
+      "nodes": 14,
+      "bytes": 127209,
+      "duration": 0.21,
       "error": "",
       "consecutive_dead": 0
     },
@@ -926,8 +915,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 13,
-      "bytes": 170095,
-      "duration": 0.42,
+      "bytes": 170091,
+      "duration": 0.31,
       "error": "",
       "consecutive_dead": 0
     },
@@ -937,8 +926,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 12,
-      "bytes": 123929,
-      "duration": 4.37,
+      "bytes": 123928,
+      "duration": 4.07,
       "error": "",
       "consecutive_dead": 0
     },
@@ -948,8 +937,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 12,
-      "bytes": 127939,
-      "duration": 0.41,
+      "bytes": 127936,
+      "duration": 0.24,
       "error": "",
       "consecutive_dead": 0
     },
@@ -959,8 +948,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 12,
-      "bytes": 139492,
-      "duration": 0.39,
+      "bytes": 139493,
+      "duration": 0.27,
       "error": "",
       "consecutive_dead": 0
     },
@@ -970,8 +959,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 12,
-      "bytes": 115791,
-      "duration": 0.36,
+      "bytes": 115790,
+      "duration": 0.2,
       "error": "",
       "consecutive_dead": 0
     },
@@ -981,8 +970,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 10,
-      "bytes": 135718,
-      "duration": 0.39,
+      "bytes": 135713,
+      "duration": 0.25,
       "error": "",
       "consecutive_dead": 0
     },
@@ -992,8 +981,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 8,
-      "bytes": 105952,
-      "duration": 0.4,
+      "bytes": 105950,
+      "duration": 0.32,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1003,8 +992,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 7,
-      "bytes": 129694,
-      "duration": 1.81,
+      "bytes": 129695,
+      "duration": 1.59,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1015,7 +1004,7 @@
       "ok": true,
       "nodes": 7,
       "bytes": 104192,
-      "duration": 0.42,
+      "duration": 0.2,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1026,7 +1015,7 @@
       "ok": true,
       "nodes": 6,
       "bytes": 111739,
-      "duration": 0.46,
+      "duration": 0.23,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1037,7 +1026,7 @@
       "ok": true,
       "nodes": 5,
       "bytes": 2260,
-      "duration": 1.02,
+      "duration": 1.59,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1048,7 +1037,7 @@
       "ok": true,
       "nodes": 5,
       "bytes": 1156,
-      "duration": 1.52,
+      "duration": 1.59,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1058,8 +1047,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 5,
-      "bytes": 117899,
-      "duration": 0.47,
+      "bytes": 117898,
+      "duration": 0.29,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1070,7 +1059,7 @@
       "ok": true,
       "nodes": 5,
       "bytes": 67473,
-      "duration": 0.43,
+      "duration": 0.19,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1080,8 +1069,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 4,
-      "bytes": 143744,
-      "duration": 2.36,
+      "bytes": 143741,
+      "duration": 2.59,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1091,8 +1080,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 4,
-      "bytes": 106176,
-      "duration": 0.46,
+      "bytes": 106180,
+      "duration": 0.19,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1103,7 +1092,7 @@
       "ok": true,
       "nodes": 3,
       "bytes": 744,
-      "duration": 2.95,
+      "duration": 1.59,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1113,8 +1102,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 3,
-      "bytes": 110369,
-      "duration": 0.46,
+      "bytes": 110368,
+      "duration": 0.22,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1124,8 +1113,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 3,
-      "bytes": 128585,
-      "duration": 0.44,
+      "bytes": 128584,
+      "duration": 0.27,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1136,7 +1125,7 @@
       "ok": true,
       "nodes": 2,
       "bytes": 99198,
-      "duration": 0.47,
+      "duration": 0.22,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1147,7 +1136,7 @@
       "ok": true,
       "nodes": 2,
       "bytes": 46434,
-      "duration": 0.42,
+      "duration": 0.2,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1158,7 +1147,7 @@
       "ok": true,
       "nodes": 1,
       "bytes": 336,
-      "duration": 2.9,
+      "duration": 1.62,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1168,8 +1157,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 1,
-      "bytes": 130674,
-      "duration": 0.48,
+      "bytes": 130671,
+      "duration": 0.25,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1179,8 +1168,8 @@
       "dynamic": false,
       "ok": true,
       "nodes": 1,
-      "bytes": 97056,
-      "duration": 0.44,
+      "bytes": 97057,
+      "duration": 0.22,
       "error": "",
       "consecutive_dead": 0
     },
@@ -1191,9 +1180,9 @@
       "ok": false,
       "nodes": 0,
       "bytes": 0,
-      "duration": 4.39,
+      "duration": 5.87,
       "error": "HTTP 404",
-      "consecutive_dead": 207
+      "consecutive_dead": 208
     },
     {
       "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
@@ -1202,9 +1191,9 @@
       "ok": false,
       "nodes": 0,
       "bytes": 0,
-      "duration": 3.91,
+      "duration": 6.17,
       "error": "HTTP 404",
-      "consecutive_dead": 32
+      "consecutive_dead": 33
     },
     {
       "url": "https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/all.txt",
@@ -1213,9 +1202,20 @@
       "ok": false,
       "nodes": 0,
       "bytes": 0,
-      "duration": 4.85,
+      "duration": 3.16,
       "error": "HTTP 404",
-      "consecutive_dead": 37
+      "consecutive_dead": 38
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt",
+      "name": "xiaoji235-airport-v2ray-all",
+      "dynamic": false,
+      "ok": false,
+      "nodes": 0,
+      "bytes": 0,
+      "duration": 4.15,
+      "error": "HTTP 403",
+      "consecutive_dead": 1
     },
     {
       "url": "https://raw.githubusercontent.com/FreeFolksOn/abc-configs-free-vpn-proxy-list/main/README.md",
@@ -1224,9 +1224,9 @@
       "ok": false,
       "nodes": 0,
       "bytes": 0,
-      "duration": 4.49,
+      "duration": 4.13,
       "error": "HTTP 404",
-      "consecutive_dead": 68
+      "consecutive_dead": 69
     },
     {
       "url": "https://t.me/s/ViProxys",
@@ -1234,10 +1234,10 @@
       "dynamic": false,
       "ok": true,
       "nodes": 0,
-      "bytes": 20529,
-      "duration": 2.36,
+      "bytes": 20527,
+      "duration": 2.17,
       "error": "",
-      "consecutive_dead": 52
+      "consecutive_dead": 53
     },
     {
       "url": "https://t.me/s/Letiranbreath",
@@ -1245,10 +1245,10 @@
       "dynamic": false,
       "ok": true,
       "nodes": 0,
-      "bytes": 9674,
-      "duration": 2.49,
+      "bytes": 9672,
+      "duration": 2.48,
       "error": "",
-      "consecutive_dead": 212
+      "consecutive_dead": 213
     },
     {
       "url": "https://t.me/s/V2rayngVpn",
@@ -1256,21 +1256,10 @@
       "dynamic": false,
       "ok": true,
       "nodes": 0,
-      "bytes": 154884,
-      "duration": 1.53,
+      "bytes": 161310,
+      "duration": 1.2,
       "error": "",
-      "consecutive_dead": 321
-    },
-    {
-      "url": "https://t.me/s/shadowproxy66",
-      "name": "tg-shadowproxy66",
-      "dynamic": false,
-      "ok": true,
-      "nodes": 0,
-      "bytes": 108278,
-      "duration": 1.33,
-      "error": "",
-      "consecutive_dead": 14
+      "consecutive_dead": 322
     },
     {
       "url": "https://t.me/s/abc_configs",
@@ -1279,9 +1268,9 @@
       "ok": true,
       "nodes": 0,
       "bytes": 9645,
-      "duration": 0.47,
+      "duration": 0.22,
       "error": "",
-      "consecutive_dead": 67
+      "consecutive_dead": 68
     },
     {
       "url": "https://t.me/s/Parsashonam",
@@ -1289,10 +1278,10 @@
       "dynamic": false,
       "ok": true,
       "nodes": 0,
-      "bytes": 124044,
-      "duration": 0.43,
+      "bytes": 124046,
+      "duration": 0.25,
       "error": "",
-      "consecutive_dead": 59
+      "consecutive_dead": 60
     },
     {
       "url": "https://t.me/s/ernoxin_shop",
@@ -1301,9 +1290,9 @@
       "ok": true,
       "nodes": 0,
       "bytes": 9659,
-      "duration": 0.47,
+      "duration": 0.24,
       "error": "",
-      "consecutive_dead": 90
+      "consecutive_dead": 91
     }
   ]
 }
