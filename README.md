@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-09-08 06:27:57 |
+| 更新时间 | 2026-09-08 12:28:25 |
 | 版本 | 2.4.0 |
 | 订阅源 | 96/107 |
-| 原始节点 | 91344 |
-| 去重后 | 25185 |
+| 原始节点 | 90936 |
+| 去重后 | 25288 |
 | TCP 可达 | 3000 |
-| 真实可用 | 601 |
-| 真测通过率 | 20.0% |
+| 真实可用 | 545 |
+| 真测通过率 | 18.2% |
 | Verified 输出 | 300 |
 | Global 输出 | 300 |
-| All 输出 | 25185 |
+| All 输出 | 25288 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 80.57 | http | 310.1 | ermaozi |
-| 79.05 | http | 296.5 | ermaozi |
-| 78.55 | hysteria2 | 419.2 | Au1rxx-base64 |
-| 78.45 | vless | 275.5 | Au1rxx-base64 |
-| 78.1 | vless | 284.3 | Au1rxx-base64 |
+| 84.84 | http | 204.9 | ermaozi |
+| 83.39 | http | 267.4 | ermaozi |
+| 82.68 | hysteria2 | 217.0 | Au1rxx-base64 |
+| 81.9 | http | 202.2 | ermaozi |
+| 81.89 | http | 202.4 | ermaozi |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| ermaozi | 1.0 | 53 | prefer |
-| ermaozi-get_subscribe | 0.94 | 19 | prefer |
-| Au1rxx-base64 | 0.932 | 352 | prefer |
-| Surfboard-tg-mixed | 0.818 | 185 | prefer |
-| tg-oneclickvpnkeys | 0.447 | 5 | observe |
+| Au1rxx-base64 | 0.979 | 330 | prefer |
+| ermaozi | 0.863 | 56 | prefer |
+| Surfboard-tg-mixed | 0.783 | 170 | prefer |
+| ermaozi-get_subscribe | 0.767 | 18 | prefer |
+| mheidari-all | 0.452 | 154 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
