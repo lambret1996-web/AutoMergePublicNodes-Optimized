@@ -1,59 +1,69 @@
 {
-  "generated_at": "2026-09-10 00:33:52",
+  "generated_at": "2026-09-10 06:34:52",
   "min_tested": 5,
   "disable_dead_threshold": 2,
   "summary": {
     "disable": 0,
-    "downweight": 1,
-    "prefer": 3,
-    "observe": 103
+    "downweight": 0,
+    "prefer": 5,
+    "observe": 102
   },
   "suggestions": {
     "disable": [],
-    "downweight": [
-      {
-        "name": "10ium-ScrapeCategorize-Vless",
-        "url": "https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/refs/heads/main/output_configs/Vless.txt",
-        "score": 0.144,
-        "recommendation": "downweight",
-        "tested": 7,
-        "pass_rate": 0.0,
-        "parsed_nodes": 4795,
-        "consecutive_dead": 0,
-        "reason": "已测数量 >= 5 且评分偏低"
-      }
-    ],
+    "downweight": [],
     "prefer": [
       {
         "name": "Au1rxx-base64",
         "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt",
-        "score": 0.988,
+        "score": 0.953,
         "recommendation": "prefer",
-        "tested": 284,
-        "pass_rate": 0.93,
-        "parsed_nodes": 1529,
+        "tested": 277,
+        "pass_rate": 0.888,
+        "parsed_nodes": 1684,
         "consecutive_dead": 0,
         "reason": "源评分较高"
       },
       {
         "name": "Surfboard-tg-mixed",
         "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
-        "score": 0.872,
+        "score": 0.85,
         "recommendation": "prefer",
-        "tested": 200,
-        "pass_rate": 0.795,
-        "parsed_nodes": 7448,
+        "tested": 181,
+        "pass_rate": 0.773,
+        "parsed_nodes": 7346,
         "consecutive_dead": 0,
         "reason": "源评分较高"
       },
       {
         "name": "ermaozi",
         "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
-        "score": 0.731,
+        "score": 0.768,
         "recommendation": "prefer",
-        "tested": 26,
-        "pass_rate": 0.731,
-        "parsed_nodes": 410,
+        "tested": 54,
+        "pass_rate": 0.759,
+        "parsed_nodes": 449,
+        "consecutive_dead": 0,
+        "reason": "源评分较高"
+      },
+      {
+        "name": "mheidari-all",
+        "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/all",
+        "score": 0.725,
+        "recommendation": "prefer",
+        "tested": 139,
+        "pass_rate": 0.647,
+        "parsed_nodes": 16259,
+        "consecutive_dead": 0,
+        "reason": "源评分较高"
+      },
+      {
+        "name": "DeltaKronecker-all",
+        "url": "https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt",
+        "score": 0.725,
+        "recommendation": "prefer",
+        "tested": 29,
+        "pass_rate": 0.655,
+        "parsed_nodes": 5187,
         "consecutive_dead": 0,
         "reason": "源评分较高"
       }
@@ -62,22 +72,33 @@
       {
         "name": "10ium-HighSpeed",
         "url": "https://raw.githubusercontent.com/10ium/free-config/refs/heads/main/HighSpeed.txt",
-        "score": 0.289,
+        "score": 0.209,
         "recommendation": "observe",
-        "tested": 1,
-        "pass_rate": 1.0,
+        "tested": 0,
+        "pass_rate": null,
         "parsed_nodes": 839,
+        "consecutive_dead": 0,
+        "reason": "证据不足或评分中性"
+      },
+      {
+        "name": "10ium-ScrapeCategorize-Vless",
+        "url": "https://raw.githubusercontent.com/10ium/ScrapeAndCategorize/refs/heads/main/output_configs/Vless.txt",
+        "score": 0.184,
+        "recommendation": "observe",
+        "tested": 2,
+        "pass_rate": 0.0,
+        "parsed_nodes": 4995,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
       {
         "name": "Au1rxx-clash",
         "url": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
-        "score": 0.236,
+        "score": 0.242,
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 1529,
+        "parsed_nodes": 1684,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -95,22 +116,11 @@
       {
         "name": "Barabama-yudou",
         "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt",
-        "score": 0.262,
+        "score": 0.182,
         "recommendation": "observe",
-        "tested": 1,
-        "pass_rate": 1.0,
+        "tested": 0,
+        "pass_rate": null,
         "parsed_nodes": 166,
-        "consecutive_dead": 0,
-        "reason": "证据不足或评分中性"
-      },
-      {
-        "name": "DeltaKronecker-all",
-        "url": "https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt",
-        "score": 0.535,
-        "recommendation": "observe",
-        "tested": 42,
-        "pass_rate": 0.452,
-        "parsed_nodes": 5187,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -121,7 +131,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 7910,
+        "parsed_nodes": 7921,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -132,7 +142,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 3997,
+        "parsed_nodes": 3999,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -176,7 +186,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 8855,
+        "parsed_nodes": 8976,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -187,7 +197,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 6108,
+        "parsed_nodes": 5990,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -231,7 +241,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 481,
+        "parsed_nodes": 480,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -253,7 +263,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 6329,
+        "parsed_nodes": 6344,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -271,11 +281,11 @@
       {
         "name": "ermaozi-get_subscribe",
         "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-        "score": 0.192,
+        "score": 0.194,
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 418,
+        "parsed_nodes": 469,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -297,7 +307,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 4247,
+        "parsed_nodes": 4358,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -310,17 +320,6 @@
         "pass_rate": null,
         "parsed_nodes": 0,
         "consecutive_dead": 1,
-        "reason": "证据不足或评分中性"
-      },
-      {
-        "name": "mheidari-all",
-        "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/all",
-        "score": 0.695,
-        "recommendation": "observe",
-        "tested": 63,
-        "pass_rate": 0.619,
-        "parsed_nodes": 16401,
-        "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
       {
@@ -359,9 +358,9 @@
       {
         "name": "ninja-vless",
         "url": "https://raw.githubusercontent.com/ninjastrikers/v2ray-configs/main/splitted/vless.txt",
-        "score": 0.161,
+        "score": 0.175,
         "recommendation": "observe",
-        "tested": 3,
+        "tested": 2,
         "pass_rate": 0.0,
         "parsed_nodes": 1791,
         "consecutive_dead": 0,
@@ -385,7 +384,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 31,
+        "parsed_nodes": 28,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -594,7 +593,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 75,
+        "parsed_nodes": 79,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -605,7 +604,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 47,
+        "parsed_nodes": 46,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -627,17 +626,17 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 177,
+        "parsed_nodes": 178,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
       {
         "name": "tg-OutlineReleasedKey",
         "url": "https://t.me/s/OutlineReleasedKey",
-        "score": 0.177,
+        "score": 0.257,
         "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
+        "tested": 1,
+        "pass_rate": 1.0,
         "parsed_nodes": 53,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
@@ -748,7 +747,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 118,
+        "parsed_nodes": 117,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -814,7 +813,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 48,
+        "parsed_nodes": 38,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -858,7 +857,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 10,
+        "parsed_nodes": 11,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -898,11 +897,11 @@
       {
         "name": "tg-oneclickvpnkeys",
         "url": "https://t.me/s/oneclickvpnkeys",
-        "score": 0.317,
+        "score": 0.214,
         "recommendation": "observe",
         "tested": 2,
-        "pass_rate": 1.0,
-        "parsed_nodes": 147,
+        "pass_rate": 0.5,
+        "parsed_nodes": 169,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -1173,12 +1172,12 @@
       {
         "name": "xiaoji235-airport-v2ray-all",
         "url": "https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt",
-        "score": 0.025,
+        "score": 0.465,
         "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
-        "parsed_nodes": 0,
-        "consecutive_dead": 1,
+        "tested": 7,
+        "pass_rate": 0.714,
+        "parsed_nodes": 3508,
+        "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
       {
