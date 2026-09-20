@@ -1,17 +1,17 @@
 {
   "scanned_projects": 6,
   "failed_projects": 0,
-  "total_discovered_nodes": 15510,
-  "unique_nodes": 13187,
+  "total_discovered_nodes": 18182,
+  "unique_nodes": 15868,
   "protocol_distribution": {
-    "ss": 3314,
-    "vmess": 2588,
-    "trojan": 1565,
-    "ssr": 45,
-    "vless": 7812,
-    "hysteria2": 184,
-    "tuic": 1,
-    "hysteria": 1
+    "ss": 3458,
+    "vmess": 2656,
+    "trojan": 1733,
+    "ssr": 44,
+    "vless": 9908,
+    "hysteria2": 377,
+    "hysteria": 3,
+    "tuic": 3
   },
   "note": "These nodes come from scanning other public aggregation projects. They are not auto-added to sources.yaml. Use as candidates for manual review."
 }
