@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29 12:47:19",
+  "generated_at": "2026-09-29 22:16:14",
   "ok": true,
   "status": "warning",
   "prefixes": {
@@ -9,10 +9,10 @@
       "missing_files": [],
       "ok": true,
       "files": {
-        "json": 174959,
-        "yaml": 124909,
-        "urls": 59261,
-        "txt": 79016,
+        "json": 178574,
+        "yaml": 127152,
+        "urls": 60423,
+        "txt": 80564,
         "converter.md": 5830
       },
       "url_count": 300,
@@ -20,17 +20,16 @@
       "json_node_count": 300,
       "yaml_proxy_count": 300,
       "protocol_dist": {
+        "vless": 155,
         "hysteria2": 20,
-        "shadowsocks": 113,
-        "vless": 141,
-        "trojan": 15,
-        "http": 11
+        "shadowsocks": 105,
+        "trojan": 2,
+        "http": 17,
+        "vmess": 1
       },
-      "region_group_count": 21,
+      "region_group_count": 19,
       "region_groups": [
         "其他",
-        "🇦🇹 其他",
-        "🇦🇺 澳大利亚",
         "🇨🇦 加拿大",
         "🇩🇪 德国",
         "🇪🇪 其他",
@@ -38,12 +37,12 @@
         "🇫🇮 其他",
         "🇫🇷 法国",
         "🇬🇧 英国",
-        "🇭🇰 香港",
         "🇮🇹 其他",
         "🇯🇵 日本",
         "🇰🇷 韩国",
+        "🇱🇻 其他",
         "🇳🇱 荷兰",
-        "🇵🇱 其他",
+        "🇷🇴 其他",
         "🇷🇺 俄罗斯",
         "🇸🇪 其他",
         "🇸🇬 新加坡",
@@ -60,28 +59,28 @@
       "missing_files": [],
       "ok": true,
       "files": {
-        "json": 8650667,
-        "yaml": 8625534,
-        "urls": 4884281,
-        "txt": 6512376,
+        "json": 8746674,
+        "yaml": 8721997,
+        "urls": 4933852,
+        "txt": 6578468,
         "converter.md": 5665
       },
-      "url_count": 26973,
-      "txt_url_count": 26973,
-      "json_node_count": 26973,
-      "yaml_proxy_count": 26973,
+      "url_count": 27167,
+      "txt_url_count": 27167,
+      "json_node_count": 27167,
+      "yaml_proxy_count": 27167,
       "protocol_dist": {
-        "hysteria2": 337,
-        "shadowsocks": 4413,
-        "trojan": 4628,
-        "vless": 13171,
-        "vmess": 4103,
+        "hysteria2": 325,
+        "shadowsocks": 4417,
+        "trojan": 4599,
+        "vless": 13399,
+        "vmess": 4104,
         "hysteria": 10,
         "tuic": 3,
-        "socks": 55,
+        "socks": 56,
         "anytls": 12,
         "shadowsocksr": 66,
-        "http": 175
+        "http": 176
       },
       "region_group_count": 73,
       "region_groups": [
@@ -113,6 +112,7 @@
         "🇫🇮 其他",
         "🇫🇷 法国",
         "🇬🇧 英国",
+        "🇬🇪 其他",
         "🇬🇷 其他",
         "🇭🇰 香港",
         "🇭🇷 其他",
@@ -137,7 +137,6 @@
         "🇲🇾 马来西亚",
         "🇳🇱 荷兰",
         "🇳🇴 其他",
-        "🇳🇿 其他",
         "🇵🇰 其他",
         "🇵🇱 其他",
         "🇷🇴 其他",
@@ -165,53 +164,67 @@
     }
   },
   "strategy": {
-    "all_json_nodes": 26973,
-    "all_compare_nodes": 26973,
+    "all_json_nodes": 27167,
+    "all_compare_nodes": 27167,
     "verified_json_nodes": 300,
     "all_contains_at_least_verified_count": true,
     "note": "all.* 来自去重池；verified.* 来自质量过滤/TCP/真测后的 Top N。light 模式下 all_compare_nodes 使用 all.urls 数量。"
   },
   "stats_summary": {
-    "nodes_raw": 96889,
-    "nodes_dedup": 26973,
-    "nodes_real_ok": 453
+    "nodes_raw": 96969,
+    "nodes_dedup": 27167,
+    "nodes_real_ok": 359
   },
   "rankings": {
     "protocol_best": [
       {
-        "name": "hysteria2",
-        "pass": 23,
-        "fail": 2,
-        "total": 25,
-        "pass_rate": 0.92
+        "name": "anytls",
+        "pass": 2,
+        "fail": 0,
+        "total": 2,
+        "pass_rate": 1.0
+      },
+      {
+        "name": "vmess",
+        "pass": 1,
+        "fail": 0,
+        "total": 1,
+        "pass_rate": 1.0
       },
       {
         "name": "shadowsocks",
-        "pass": 155,
-        "fail": 16,
-        "total": 171,
-        "pass_rate": 0.906
+        "pass": 109,
+        "fail": 4,
+        "total": 113,
+        "pass_rate": 0.965
+      },
+      {
+        "name": "hysteria2",
+        "pass": 23,
+        "fail": 1,
+        "total": 24,
+        "pass_rate": 0.958
       },
       {
         "name": "http",
-        "pass": 23,
-        "fail": 5,
-        "total": 28,
-        "pass_rate": 0.821
+        "pass": 22,
+        "fail": 4,
+        "total": 26,
+        "pass_rate": 0.846
       },
       {
         "name": "vless",
-        "pass": 228,
-        "fail": 77,
-        "total": 305,
-        "pass_rate": 0.748
+        "pass": 195,
+        "fail": 59,
+        "total": 254,
+        "pass_rate": 0.768
       },
       {
         "name": "trojan",
-        "pass": 22,
-        "fail": 12,
-        "total": 34,
-        "pass_rate": 0.647
+        "pass": 5,
+        "fail": 2,
+        "total": 7,
+        "pass_rate": 0.714
       },
       {
         "name": "socks",
@@ -231,75 +244,110 @@
       },
       {
         "name": "trojan",
-        "pass": 22,
-        "fail": 12,
-        "total": 34,
-        "pass_rate": 0.647
+        "pass": 5,
+        "fail": 2,
+        "total": 7,
+        "pass_rate": 0.714
       },
       {
         "name": "vless",
-        "pass": 228,
-        "fail": 77,
-        "total": 305,
-        "pass_rate": 0.748
+        "pass": 195,
+        "fail": 59,
+        "total": 254,
+        "pass_rate": 0.768
       },
       {
         "name": "http",
-        "pass": 23,
-        "fail": 5,
-        "total": 28,
-        "pass_rate": 0.821
-      },
-      {
-        "name": "shadowsocks",
-        "pass": 155,
-        "fail": 16,
-        "total": 171,
-        "pass_rate": 0.906
+        "pass": 22,
+        "fail": 4,
+        "total": 26,
+        "pass_rate": 0.846
       },
       {
         "name": "hysteria2",
         "pass": 23,
-        "fail": 2,
-        "total": 25,
-        "pass_rate": 0.92
+        "fail": 1,
+        "total": 24,
+        "pass_rate": 0.958
+      },
+      {
+        "name": "shadowsocks",
+        "pass": 109,
+        "fail": 4,
+        "total": 113,
+        "pass_rate": 0.965
+      },
+      {
+        "name": "vmess",
+        "pass": 1,
+        "fail": 0,
+        "total": 1,
+        "pass_rate": 1.0
+      },
+      {
+        "name": "anytls",
+        "pass": 2,
+        "fail": 0,
+        "total": 2,
+        "pass_rate": 1.0
       }
     ],
     "source_best": [
       {
-        "name": "mheidari-all",
-        "pass": 45,
-        "fail": 5,
-        "total": 50,
-        "pass_rate": 0.9
+        "name": "tg-oneclickvpnkeys",
+        "pass": 3,
+        "fail": 0,
+        "total": 3,
+        "pass_rate": 1.0
+      },
+      {
+        "name": "ermaozi-get_subscribe",
+        "pass": 3,
+        "fail": 0,
+        "total": 3,
+        "pass_rate": 1.0
+      },
+      {
+        "name": "10ium-HighSpeed",
+        "pass": 1,
+        "fail": 0,
+        "total": 1,
+        "pass_rate": 1.0
       },
       {
         "name": "Au1rxx-base64",
-        "pass": 286,
-        "fail": 49,
-        "total": 335,
-        "pass_rate": 0.854
+        "pass": 228,
+        "fail": 42,
+        "total": 270,
+        "pass_rate": 0.844
       },
       {
         "name": "ermaozi",
-        "pass": 24,
-        "fail": 7,
-        "total": 31,
-        "pass_rate": 0.774
+        "pass": 21,
+        "fail": 4,
+        "total": 25,
+        "pass_rate": 0.84
       },
       {
         "name": "Surfboard-tg-mixed",
+        "pass": 5,
+        "fail": 1,
+        "total": 6,
+        "pass_rate": 0.833
+      },
+      {
+        "name": "mheidari-all",
         "pass": 92,
-        "fail": 45,
-        "total": 137,
-        "pass_rate": 0.672
+        "fail": 20,
+        "total": 112,
+        "pass_rate": 0.821
       },
       {
         "name": "DeltaKronecker-all",
         "pass": 6,
-        "fail": 6,
-        "total": 12,
-        "pass_rate": 0.5
+        "fail": 3,
+        "total": 9,
+        "pass_rate": 0.667
       },
       {
         "name": "tg-V2RAYProxy",
@@ -334,99 +382,156 @@
       {
         "name": "DeltaKronecker-all",
         "pass": 6,
-        "fail": 6,
-        "total": 12,
-        "pass_rate": 0.5
-      },
-      {
-        "name": "Surfboard-tg-mixed",
-        "pass": 92,
-        "fail": 45,
-        "total": 137,
-        "pass_rate": 0.672
-      },
-      {
-        "name": "ermaozi",
-        "pass": 24,
-        "fail": 7,
-        "total": 31,
-        "pass_rate": 0.774
-      },
-      {
-        "name": "Au1rxx-base64",
-        "pass": 286,
-        "fail": 49,
-        "total": 335,
-        "pass_rate": 0.854
+        "fail": 3,
+        "total": 9,
+        "pass_rate": 0.667
       },
       {
         "name": "mheidari-all",
-        "pass": 45,
-        "fail": 5,
-        "total": 50,
-        "pass_rate": 0.9
+        "pass": 92,
+        "fail": 20,
+        "total": 112,
+        "pass_rate": 0.821
+      },
+      {
+        "name": "Surfboard-tg-mixed",
+        "pass": 5,
+        "fail": 1,
+        "total": 6,
+        "pass_rate": 0.833
+      },
+      {
+        "name": "ermaozi",
+        "pass": 21,
+        "fail": 4,
+        "total": 25,
+        "pass_rate": 0.84
+      },
+      {
+        "name": "Au1rxx-base64",
+        "pass": 228,
+        "fail": 42,
+        "total": 270,
+        "pass_rate": 0.844
+      },
+      {
+        "name": "10ium-HighSpeed",
+        "pass": 1,
+        "fail": 0,
+        "total": 1,
+        "pass_rate": 1.0
+      },
+      {
+        "name": "tg-oneclickvpnkeys",
+        "pass": 3,
+        "fail": 0,
+        "total": 3,
+        "pass_rate": 1.0
+      },
+      {
+        "name": "ermaozi-get_subscribe",
+        "pass": 3,
+        "fail": 0,
+        "total": 3,
+        "pass_rate": 1.0
       }
     ],
     "source_score_best": [
       {
-        "score": 0.965,
-        "pass_rate": 0.9,
-        "smoothed_pass_rate": 0.885,
-        "pass": 45,
-        "fail": 5,
-        "tested": 50,
-        "parsed_nodes": 22883,
-        "consecutive_dead": 0,
-        "recommendation": "prefer",
-        "name": "mheidari-all"
-      },
-      {
-        "score": 0.916,
-        "pass_rate": 0.854,
-        "smoothed_pass_rate": 0.852,
-        "pass": 286,
-        "fail": 49,
-        "tested": 335,
-        "parsed_nodes": 1598,
+        "score": 0.914,
+        "pass_rate": 0.844,
+        "smoothed_pass_rate": 0.842,
+        "pass": 228,
+        "fail": 42,
+        "tested": 270,
+        "parsed_nodes": 1792,
         "consecutive_dead": 0,
         "recommendation": "prefer",
         "name": "Au1rxx-base64"
       },
       {
-        "score": 0.769,
-        "pass_rate": 0.774,
-        "smoothed_pass_rate": 0.758,
-        "pass": 24,
-        "fail": 7,
-        "tested": 31,
+        "score": 0.896,
+        "pass_rate": 0.821,
+        "smoothed_pass_rate": 0.816,
+        "pass": 92,
+        "fail": 20,
+        "tested": 112,
+        "parsed_nodes": 22763,
+        "consecutive_dead": 0,
+        "recommendation": "prefer",
+        "name": "mheidari-all"
+      },
+      {
+        "score": 0.826,
+        "pass_rate": 0.84,
+        "smoothed_pass_rate": 0.815,
+        "pass": 21,
+        "fail": 4,
+        "tested": 25,
         "parsed_nodes": 291,
         "consecutive_dead": 0,
         "recommendation": "prefer",
         "name": "ermaozi"
       },
       {
-        "score": 0.749,
-        "pass_rate": 0.672,
-        "smoothed_pass_rate": 0.669,
-        "pass": 92,
-        "fail": 45,
-        "tested": 137,
-        "parsed_nodes": 7053,
-        "consecutive_dead": 0,
-        "recommendation": "prefer",
-        "name": "Surfboard-tg-mixed"
-      },
-      {
-        "score": 0.45,
-        "pass_rate": 0.5,
-        "smoothed_pass_rate": 0.5,
+        "score": 0.489,
+        "pass_rate": 0.667,
+        "smoothed_pass_rate": 0.636,
         "pass": 6,
-        "fail": 6,
-        "tested": 12,
+        "fail": 3,
+        "tested": 9,
         "parsed_nodes": 5528,
         "consecutive_dead": 0,
         "recommendation": "observe",
         "name": "DeltaKronecker-all"
+      },
+      {
+        "score": 0.489,
+        "pass_rate": 0.833,
+        "smoothed_pass_rate": 0.75,
+        "pass": 5,
+        "fail": 1,
+        "tested": 6,
+        "parsed_nodes": 7082,
+        "consecutive_dead": 0,
+        "recommendation": "observe",
+        "name": "Surfboard-tg-mixed"
+      },
+      {
+        "score": 0.37,
+        "pass_rate": 1.0,
+        "smoothed_pass_rate": 0.8,
+        "pass": 3,
+        "fail": 0,
+        "tested": 3,
+        "parsed_nodes": 293,
+        "consecutive_dead": 0,
+        "recommendation": "observe",
+        "name": "ermaozi-get_subscribe"
+      },
+      {
+        "score": 0.36,
+        "pass_rate": 1.0,
+        "smoothed_pass_rate": 0.8,
+        "pass": 3,
+        "fail": 0,
+        "tested": 3,
+        "parsed_nodes": 62,
+        "consecutive_dead": 0,
+        "recommendation": "observe",
+        "name": "tg-oneclickvpnkeys"
+      },
+      {
+        "score": 0.289,
+        "pass_rate": 1.0,
+        "smoothed_pass_rate": 0.667,
+        "pass": 1,
+        "fail": 0,
+        "tested": 1,
+        "parsed_nodes": 839,
+        "consecutive_dead": 0,
+        "recommendation": "observe",
+        "name": "10ium-HighSpeed"
       },
       {
         "score": 0.255,
@@ -447,46 +552,10 @@
         "pass": 0,
         "fail": 0,
         "tested": 0,
-        "parsed_nodes": 7502,
+        "parsed_nodes": 7556,
         "consecutive_dead": 0,
         "recommendation": "observe",
         "name": "Epodonios-all"
-      },
-      {
-        "score": 0.255,
-        "pass_rate": null,
-        "smoothed_pass_rate": 0.5,
-        "pass": 0,
-        "fail": 0,
-        "tested": 0,
-        "parsed_nodes": 3999,
-        "consecutive_dead": 0,
-        "recommendation": "observe",
-        "name": "MatinGhanbari-all-sub"
-      },
-      {
-        "score": 0.255,
-        "pass_rate": null,
-        "smoothed_pass_rate": 0.5,
-        "pass": 0,
-        "fail": 0,
-        "tested": 0,
-        "parsed_nodes": 9548,
-        "consecutive_dead": 0,
-        "recommendation": "observe",
-        "name": "SoliSpirit-all"
-      },
-      {
-        "score": 0.255,
-        "pass_rate": null,
-        "smoothed_pass_rate": 0.5,
-        "pass": 0,
-        "fail": 0,
-        "tested": 0,
-        "parsed_nodes": 5690,
-        "consecutive_dead": 0,
-        "recommendation": "observe",
-        "name": "Surfboard-tg-vless"
       }
     ],
     "source_score_worst": [
@@ -622,9 +691,9 @@
         "ok": false,
         "nodes": 0,
         "bytes": 0,
-        "duration": 4.81,
+        "duration": 5.78,
         "error": "HTTP 404",
-        "consecutive_dead": 292
+        "consecutive_dead": 293
       },
       {
         "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
@@ -633,9 +702,9 @@
         "ok": false,
         "nodes": 0,
         "bytes": 0,
-        "duration": 3.16,
+        "duration": 5.54,
         "error": "HTTP 404",
-        "consecutive_dead": 117
+        "consecutive_dead": 118
       },
       {
         "url": "https://raw.githubusercontent.com/nscl5/5/refs/heads/main/configs/all.txt",
@@ -644,9 +713,9 @@
         "ok": false,
         "nodes": 0,
         "bytes": 0,
-        "duration": 4.51,
+        "duration": 6.35,
         "error": "HTTP 404",
-        "consecutive_dead": 122
+        "consecutive_dead": 123
       },
       {
         "url": "https://raw.githubusercontent.com/FreeFolksOn/abc-configs-free-vpn-proxy-list/main/README.md",
@@ -655,9 +724,9 @@
         "ok": false,
         "nodes": 0,
         "bytes": 0,
-        "duration": 3.17,
+        "duration": 6.04,
         "error": "HTTP 404",
-        "consecutive_dead": 153
+        "consecutive_dead": 154
       },
       {
         "url": "https://t.me/s/Letiranbreath",
@@ -665,10 +734,10 @@
         "dynamic": false,
         "ok": true,
         "nodes": 0,
-        "bytes": 9673,
-        "duration": 2.44,
+        "bytes": 9674,
+        "duration": 3.11,
         "error": "",
-        "consecutive_dead": 297
+        "consecutive_dead": 298
       },
       {
         "url": "https://t.me/s/V2rayngVpn",
@@ -676,10 +745,10 @@
         "dynamic": false,
         "ok": true,
         "nodes": 0,
-        "bytes": 154049,
-        "duration": 0.85,
+        "bytes": 154407,
+        "duration": 1.5,
         "error": "",
-        "consecutive_dead": 406
+        "consecutive_dead": 407
       },
       {
         "url": "https://t.me/s/shadowproxy66",
@@ -687,10 +756,10 @@
         "dynamic": false,
         "ok": true,
         "nodes": 0,
-        "bytes": 122765,
-        "duration": 0.83,
+        "bytes": 132734,
+        "duration": 1.28,
         "error": "",
-        "consecutive_dead": 16
+        "consecutive_dead": 17
       },
       {
         "url": "https://t.me/s/CaV2ray",
@@ -699,9 +768,9 @@
         "ok": true,
         "nodes": 0,
         "bytes": 21817,
-        "duration": 0.15,
+        "duration": 0.12,
         "error": "",
-        "consecutive_dead": 35
+        "consecutive_dead": 36
       },
       {
         "url": "https://t.me/s/abc_configs",
@@ -710,9 +779,9 @@
         "ok": true,
         "nodes": 0,
         "bytes": 26104,
-        "duration": 0.15,
+        "duration": 0.14,
         "error": "",
-        "consecutive_dead": 152
+        "consecutive_dead": 153
       },
       {
         "url": "https://t.me/s/ConfigWireguard",
@@ -720,10 +789,10 @@
         "dynamic": false,
         "ok": true,
         "nodes": 0,
-        "bytes": 115817,
-        "duration": 0.24,
+        "bytes": 114279,
+        "duration": 0.26,
         "error": "",
-        "consecutive_dead": 19
+        "consecutive_dead": 20
       },
       {
         "url": "https://t.me/s/Parsashonam",
@@ -731,10 +800,10 @@
         "dynamic": false,
         "ok": true,
         "nodes": 0,
-        "bytes": 123750,
-        "duration": 0.21,
+        "bytes": 124839,
+        "duration": 0.37,
         "error": "",
-        "consecutive_dead": 144
+        "consecutive_dead": 145
       },
       {
         "url": "https://t.me/s/AzadNet",
@@ -742,10 +811,10 @@
         "dynamic": false,
         "ok": true,
         "nodes": 0,
-        "bytes": 125904,
-        "duration": 0.92,
+        "bytes": 125997,
+        "duration": 0.27,
         "error": "",
-        "consecutive_dead": 21
+        "consecutive_dead": 22
       },
       {
         "url": "https://t.me/s/ernoxin_shop",
@@ -754,38 +823,37 @@
         "ok": true,
         "nodes": 0,
         "bytes": 9660,
-        "duration": 0.24,
+        "duration": 0.21,
         "error": "",
-        "consecutive_dead": 175
+        "consecutive_dead": 176
       }
     ],
     "suggestion_summary": {
       "disable": 0,
       "downweight": 0,
-      "prefer": 4,
-      "observe": 103
+      "prefer": 3,
+      "observe": 104
     },
     "disable_count": 0,
     "downweight_count": 0,
-    "prefer_count": 4,
-    "observe_count": 103,
+    "prefer_count": 3,
+    "observe_count": 104,
     "disable_suggestions": [],
     "downweight_suggestions": []
   },
   "alerts": {
     "low_pass_protocols": [],
     "real_test_errors": {
-      "sing-box exited 1": 1,
-      "204": 36,
-      "cn-block": 33,
-      "speed": 37,
-      "geo": 7
+      "204": 13,
+      "cn-block": 22,
+      "geo": 6,
+      "speed": 31
     },
     "tcp_errors": {
-      "ConnectionRefusedError": 1012,
-      "OSError": 232,
-      "gaierror": 293,
-      "TimeoutError": 6546
+      "ConnectionRefusedError": 1023,
+      "OSError": 235,
+      "gaierror": 395,
+      "TimeoutError": 5619
     },
     "source_disable_candidates": [],
     "source_cleanup_disable_suggestions": []
