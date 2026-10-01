@@ -1,14 +1,14 @@
 # 订阅源质量评分
 
-生成时间：2026-10-01 07:10:09
+生成时间：2026-10-01 11:52:24
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
 | 已评分订阅源总数 | 107 |
-| 建议优先 | 2 |
-| 继续观察 | 105 |
+| 建议优先 | 5 |
+| 继续观察 | 102 |
 | 建议降权 | 0 |
 | 建议禁用 | 0 |
 
@@ -16,8 +16,11 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 0.871 | prefer | 303 | 244 | 59 | 0.805 | 1699 | 0 |
-| ermaozi | 0.831 | prefer | 24 | 20 | 4 | 0.833 | 588 | 0 |
+| ermaozi | 0.94 | prefer | 22 | 21 | 1 | 0.955 | 588 | 0 |
+| mheidari-all | 0.901 | prefer | 65 | 54 | 11 | 0.831 | 23162 | 0 |
+| Au1rxx-base64 | 0.85 | prefer | 310 | 242 | 68 | 0.781 | 1767 | 0 |
+| Surfboard-tg-mixed | 0.81 | prefer | 124 | 91 | 33 | 0.734 | 7144 | 0 |
+| DeltaKronecker-all | 0.78 | prefer | 28 | 20 | 8 | 0.714 | 5603 | 0 |
 
 ## 建议降权
 
@@ -31,35 +34,35 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 0.871 | prefer | 303 | 244 | 59 | 0.805 | 1699 | 0 |
-| ermaozi | 0.831 | prefer | 24 | 20 | 4 | 0.833 | 588 | 0 |
-| Surfboard-tg-mixed | 0.59 | observe | 143 | 73 | 70 | 0.51 | 7136 | 0 |
-| mheidari-all | 0.362 | observe | 140 | 39 | 101 | 0.279 | 22835 | 0 |
-| ermaozi-get_subscribe | 0.331 | observe | 2 | 2 | 0 | 1.0 | 487 | 0 |
-| tg-oneclickvpnkeys | 0.314 | observe | 2 | 2 | 0 | 1.0 | 66 | 0 |
-| DeltaKronecker-all | 0.287 | observe | 2 | 1 | 1 | 0.5 | 5434 | 0 |
-| Barabama-yudou | 0.262 | observe | 1 | 1 | 0 | 1.0 | 166 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 9403 | 0 |
+| ermaozi | 0.94 | prefer | 22 | 21 | 1 | 0.955 | 588 | 0 |
+| mheidari-all | 0.901 | prefer | 65 | 54 | 11 | 0.831 | 23162 | 0 |
+| Au1rxx-base64 | 0.85 | prefer | 310 | 242 | 68 | 0.781 | 1767 | 0 |
+| Surfboard-tg-mixed | 0.81 | prefer | 124 | 91 | 33 | 0.734 | 7144 | 0 |
+| DeltaKronecker-all | 0.78 | prefer | 28 | 20 | 8 | 0.714 | 5603 | 0 |
+| tg-oneclickvpnkeys | 0.314 | observe | 2 | 2 | 0 | 1.0 | 81 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 9494 | 0 |
 | Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7625 | 0 |
 | xiaoji235-airport-v2ray-all | 0.255 | observe | 0 | 0 | 0 | None | 6752 | 0 |
 | barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6050 | 0 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 5815 | 0 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 5788 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 5324 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4241 | 0 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3997 | 0 |
-| Au1rxx-clash | 0.243 | observe | 0 | 0 | 0 | None | 1699 | 0 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3996 | 0 |
+| ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
+| Au1rxx-clash | 0.246 | observe | 0 | 0 | 0 | None | 1767 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
-| ninja-vless | 0.199 | observe | 1 | 0 | 1 | 0.0 | 1791 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 495 | 0 |
 | barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 490 | 0 |
+| ermaozi-get_subscribe | 0.194 | observe | 0 | 0 | 0 | None | 487 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
+| tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 199 | 0 |
 | tg-v2raying | 0.183 | observe | 0 | 0 | 0 | None | 194 | 0 |
-| tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 190 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 175 | 0 |
+| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 176 | 0 |
 | tg-Outline_Vpn | 0.182 | observe | 0 | 0 | 0 | None | 169 | 0 |
+| Barabama-yudou | 0.182 | observe | 0 | 0 | 0 | None | 166 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 
 ## 综合后 30
